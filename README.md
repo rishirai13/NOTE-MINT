@@ -2,21 +2,25 @@
 
 > **Ultra-premium, privacy-first note-taking with instant PDF export**
 
-NOTE-MINT is a blazing-fast, minimalist web application for taking notes with seamless PDF export functionality. Built with privacy at its core, all notes are stored only in your browser session and automatically cleared when you close the tab.
+<p align="center">
+  <img src="https://github.com/rishirai13/NOTE-MINT/blob/d0fda70511aea93771f4eb76996ca19d6219928a/NOTE-MINT%20-%20Premium%20Note-Taking_page-0001.jpg" alt="NOTE-MINT Preview" width="600"/>
+</p>
+
+**NOTE-MINT** is a blazing-fast, minimalist web application designed for seamless note-taking with **instant PDF export**. With privacy at its core, all notes are stored **exclusively in your browser session** and automatically cleared upon closing the tab — no cloud, no tracking, just your notes.
 
 ---
 
 ## ✨ Features
 
 ### Core Functionality
-- **📝 Intuitive Note Editor** - Clean, distraction-free textarea with auto-expanding height
-- **💾 Session-Only Storage** - Notes stored exclusively in browser session (cleared on tab close)
-- **📄 Instant PDF Export** - Client-side PDF generation with zero server interaction
-- **🔍 Real-Time Search** - Filter notes instantly as you type
-- **✏️ Edit & Delete** - Manage your notes with simple, intuitive controls
-- **🌓 Dark/Light Mode** - Smooth theme switching with preference persistence
-- **📱 Fully Responsive** - Optimized for mobile, tablet, and desktop devices
-- **♿ WCAG AAA Compliant** - Full keyboard navigation and screen reader support
+- **📝 Intuitive Note Editor** – Clean, distraction-free interface with auto-expanding input fields
+- **💾 Session-Only Storage** – Notes remain private and temporary, cleared automatically when you close the browser tab
+- **📄 Instant PDF Export** – Generate PDFs directly on the client-side, zero server interaction
+- **🔍 Real-Time Search** – Filter and locate notes instantly as you type
+- **✏️ Edit & Delete** – Seamlessly manage notes with simple, intuitive controls
+- **🌓 Dark/Light Mode** – Smooth theme switching with user preference persistence
+- **📱 Fully Responsive** – Optimized for mobile, tablet, and desktop
+- **♿ Accessibility-First Design** – WCAG AAA compliant; supports keyboard navigation and screen readers
 
 ### Design Highlights
 - Premium minimalist aesthetic with refined typography (Inter, Poppins, Roboto Mono)
