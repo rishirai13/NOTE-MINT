@@ -1,6 +1,7 @@
 import { ArrowRight, Lock, Zap, FileDown, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface LandingPageProps {
   onEnterApp: () => void;
@@ -14,6 +15,7 @@ export function LandingPage({ onEnterApp }: LandingPageProps) {
           <h1 className="text-2xl font-heading font-bold text-foreground">
             NOTE-MINT
           </h1>
+          <ThemeToggle />
         </div>
       </header>
 
