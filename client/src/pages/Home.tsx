@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { ArrowLeft } from "lucide-react";
 import { LandingPage } from "@/components/LandingPage";
 import { NoteEditor } from "@/components/NoteEditor";
 import { NotesList } from "@/components/NotesList";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Toast, ToastType } from "@/components/Toast";
 import { Note } from "@/components/NoteCard";
+import { Button } from "@/components/ui/button";
 
 const STORAGE_KEY = "note-mint-notes";
 
@@ -103,9 +105,20 @@ export default function Home() {
         className="h-16 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40 flex items-center justify-between px-4 lg:px-8"
         role="banner"
       >
-        <h1 className="text-xl lg:text-2xl font-heading font-bold text-foreground">
-          NOTE-MINT
-        </h1>
+        <div className="flex items-center gap-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setShowApp(false)}
+            aria-label="Go to home"
+            data-testid="button-go-home"
+          >
+            <ArrowLeft className="h-5 w-5" />
+          </Button>
+          <h1 className="text-xl lg:text-2xl font-heading font-bold text-foreground">
+            NOTE-MINT
+          </h1>
+        </div>
         <ThemeToggle />
       </header>
 
